@@ -37,7 +37,7 @@ export const Contact = () => {
       message: formDetails.message
     };
 
-    emailjs.send('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', templateParams, 'YOUR_USER_ID')
+    emailjs.send('service_ixribd4', 'template_8ikxfyt', templateParams, 'F5EdV2_om4p7q4m2e')
       .then((result) => {
         console.log(result.text);
         setButtonText("Send");

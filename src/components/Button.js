@@ -5,7 +5,7 @@ const ButtonInCard = ({ link, text }) => {
   return (
     <div className="proj-btn">
       <a
-        href="#"
+        href={link}
         className="btn"
         style={{
           backgroundColor: '#ee83e5',

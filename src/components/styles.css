@@ -102,5 +102,24 @@
     border-radius: 0.5rem;
     font-weight: bold;
   }
+
+  .projecttitle{
+    text-align: center;
+  margin-top: 10px;
+  font-size: 1.6rem;
+  font-weight: bold;
+  }
+  
+  .proj-imgbx {
+    position: relative;
+    overflow: hidden;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    margin-bottom: 20px;
+  }
+
+  
+  
   
   
