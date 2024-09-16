@@ -555,6 +555,23 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   height:30px;
   margin-right: 20px;  
   vertical-align: middle;
+  
+}
+
+.socialicon{
+  width:30px;
+  height:30px;
+  margin: 0 10px;
+  vertical-align: middle;
+  color:#fff;
+  margin-top: 10px;
+  
+  
+}
+
+.social-icons-container {
+  display: flex;
+  justify-content: center; 
 }
 
 .detailsp{
