@@ -90,15 +90,11 @@ export const Banner = () => {
 
          
         <spline-viewer
-              url="https://prod.spline.design/OTWWXTelyQtfJRtD/scene.splinecode" 
-              style={{ paddingLeft: "100px" }}
+              url="https://prod.spline.design/7PjOJltVOdFGXqmn/scene.splinecode" 
+              style={{ paddingLeft: "50px" }}
             ></spline-viewer>
             
-            
-             
-         
-
-            
+           
         
       </Container>
     </section>
