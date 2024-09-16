@@ -90,7 +90,7 @@ export const Banner = () => {
 
          
         <spline-viewer
-              url="https://prod.spline.design/OTWWXTelyQtfJRtD/scene.splinecode"
+              url="https://prod.spline.design/OTWWXTelyQtfJRtD/scene.splinecode" 
               style={{ paddingLeft: "100px" }}
             ></spline-viewer>
             
@@ -98,7 +98,7 @@ export const Banner = () => {
              
          
 
-          
+            
         
       </Container>
     </section>

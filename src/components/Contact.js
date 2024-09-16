@@ -5,6 +5,10 @@ import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 import emailjs from 'emailjs-com';
 import contact from '../assets/img/contact.png';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faEnvelope, faPhone, faMapMarkerAlt } from '@fortawesome/free-solid-svg-icons';
+import address from "../assets/img/icons8-map-marker-64.png";
+ 
 
 export const Contact = () => {
   const formInitialDetails = {
@@ -56,16 +60,26 @@ export const Contact = () => {
         <Row className="align-items-center">
           <Col size={12} md={6}>
             <TrackVisibility>
-              {({ isVisible }) =>
-                <spline-viewer url="https://prod.spline.design/2eBCBIPVlcYIyQ3o/scene.splinecode"></spline-viewer>
-              }
+            {({ isVisible }) =>
+      <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
+      <div className="detailssection">
+        <h2>Get In Touch</h2>
+      
+        <p className="detailsp"><FontAwesomeIcon icon={faEnvelope} className="icon" /> <strong>Email: </strong>sachini.sahasra@gmail.com</p>
+        <p className="detailsp"><FontAwesomeIcon icon={faPhone} className="icon" /> <strong>Phone: </strong> +94 786 779 000</p>
+        <p className="detailsp"><FontAwesomeIcon icon={faMapMarkerAlt} className="icon"/><strong>Address :</strong>Bandaragama,Sri Lanka</p>
+      </div>
+      </div>
+      
+    }
             </TrackVisibility>
           </Col>
+          
           <Col size={12} md={6}>
             <TrackVisibility>
               {({ isVisible }) =>
                 <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
-                <h2>Get In Touch</h2>
+               
                 <form onSubmit={handleSubmit}>
                   <Row>
                     <Col size={12} sm={6} className="px-1">

@@ -10,7 +10,7 @@ export const ProjectCard = ({ title, description, imgUrl, link }) => {
       </div>
         <div className="proj-txtx">
           <span>{description}</span>
-          <ButtonInCard link={link} text="View Project" />
+        {/*<ButtonInCard link={link} text="View Project" />*/}
         </div>
       </div>
       <h4 className="projecttitle">{title}</h4>

@@ -176,7 +176,8 @@ span.navbar-text {
   transition: 0.3s ease-in-out;
 }
 .navbar-text button:hover {
-  color: #121212;
+  color: #fff;
+  background-color:#20b68e;
 }
 .navbar-text button:hover::before {
 	content: "";
@@ -234,7 +235,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .banner {
   margin-top: 0;
   padding: 260px 0 100px 0;
-  background-image: url('./assets/img/background.avif');
+  background-image: url('./assets/img/grrenbackground.avif');
   background-position: top center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -298,6 +299,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 .txt-rotate > .wrap {
   border-right: 0.08em solid #666;
+  color:#20b68e;
+  font-size:50px
 }
 
 /************ Skills Css ************/
@@ -433,7 +436,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   height: 100%;
 }
 .proj-txtx {
-  color: #AA367C;
+  color: #008c90;
   position: absolute;
   text-align: center;
   top: 65%;
@@ -471,13 +474,13 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 .uniform-img {
   width: 100%;
-  height: 300px; /* Set the height you prefer */
-  object-fit: cover; /* Ensures the image fills the box while keeping the aspect ratio */
+  height: 300px; 
+  object-fit: cover;  
 }
 
-/************ Projects Css ************/
+/************ Contact Css ************/
 .contact {
-  background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
+  background: linear-gradient(90.21deg, #163853 -5.91%, #20b68e 111.58%);
   padding: 60px 0 200px 0;
 }
 .contact img {
@@ -547,10 +550,26 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   width: 100%;
 }
 
+.icon{
+  width:30px;
+  height:30px;
+  margin-right: 20px;  
+  vertical-align: middle;
+}
+
+.detailsp{
+  font-size: 20px;
+  margin-top:30px;
+}
+
+.detailssection{
+  margin-bottom: 80px;
+}
+
 /************ Footer Css ************/
 .footer {
   padding: 0 0 50px 0;
-  background-image: url('./assets/img/footer-bg.png');
+  background-image: url('./assets/img/contact3.jpg');
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
