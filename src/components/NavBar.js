@@ -49,12 +49,16 @@ export const NavBar = () => {
               <Nav.Link href="#about" className={activeLink === 'about' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('about')}>About</Nav.Link>
               <Nav.Link href="#skills" className={activeLink === 'skills' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('skills')}>Skills</Nav.Link>
               <Nav.Link href="#projects" className={activeLink === 'projects' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('projects')}>Projects</Nav.Link>
+               
             </Nav>
             <span className="navbar-text">
                
               <HashLink to='#connect'>
-                <button className="vvd"><span>Let’s Connect</span></button>
+                <button className="vvd"><span>Hire Me</span></button>
               </HashLink>
+              <a href="/Sachini_Perera_CV.pdf" target="_blank" rel="noopener noreferrer">
+                <button className="vvd"><span>Get CV</span></button>
+              </a>
             </span>
           </Navbar.Collapse>
         </Container>
