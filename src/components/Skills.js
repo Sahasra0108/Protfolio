@@ -1,5 +1,5 @@
 import React from 'react';
-import colorSharp from "../assets/img/color-sharp.png";
+import colorSharp from "../assets/img/star3.avif";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { RiHtml5Line, RiCss3Line, RiBootstrapLine, RiTailwindCssLine, RiJavascriptLine, RiReactjsLine } from 'react-icons/ri';
 import { FaJava, FaPython, FaDatabase, FaGitAlt, FaGithub, FaFigma } from 'react-icons/fa';
