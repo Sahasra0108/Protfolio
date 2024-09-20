@@ -16,17 +16,17 @@ const techStack = [
   { icon: <SiSpringboot className="display-3 text-success" />, name: "SpringBoot" },
   { icon: <FaPython className="display-3 text-primary" />, name: "Python" },
   { icon: <SiC className="display-3 text-primary" />, name: "C" },
-  { icon: <SiCplusplus className="display-3 text-primary" />, name: "C++" },
+  //{ icon: <SiCplusplus className="display-3 text-primary" />, name: "C++" },
   { icon: <FaDatabase className="display-3 text-secondary" />, name: "SQL" },
   { icon: <SiMongodb className="display-3 text-success" />, name: "MongoDB" },
-  { icon: <SiScala className="display-3 text-danger" />, name: "Scala" },
-  { icon: <SiRstudio className="display-3 text-primary" />, name: "R" },
-  { icon: <SiOctave className="display-3 text-primary" />, name: "Octave" },
+  //{ icon: <SiScala className="display-3 text-danger" />, name: "Scala" },
+  //{ icon: <SiRstudio className="display-3 text-primary" />, name: "R" },
+  //{ icon: <SiOctave className="display-3 text-primary" />, name: "Octave" },
   { icon: <FaGitAlt className="display-3 text-warning" />, name: "Git" },
   { icon: <FaGithub className="display-3 text-light" />, name: "GitHub" },
   { icon: <FaFigma className="display-3 text-purple" />, name: "Figma" },
-  { icon: <SiAdobephotoshop className="display-3 text-primary" />, name: "Adobe Photoshop" },
-  { icon: <SiAdobeillustrator className="display-3 text-warning" />, name: "Adobe Illustrator" },
+ // { icon: <SiAdobephotoshop className="display-3 text-primary" />, name: "Adobe Photoshop" },
+  //{ icon: <SiAdobeillustrator className="display-3 text-warning" />, name: "Adobe Illustrator" },
 ];
 
 export const Skills = () => {
