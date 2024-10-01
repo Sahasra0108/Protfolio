@@ -8,6 +8,7 @@ import { Projects } from "./components/Projects";
 import { Contact } from "./components/Contact";
 import { Footer } from "./components/Footer";
 import { About } from "./components/About";
+import {Education} from "./components/Education"
 // import { GlobeDemo } from "./components/githubGlobe";
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
       <About/>
       <Skills />
       <Projects />
+      <Education />
       {/* <GlobeDemo /> */}
       <Contact />
       {/* <Footer /> */}

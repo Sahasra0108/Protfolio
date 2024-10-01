@@ -607,6 +607,71 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   margin-bottom: 80px;
 }
 
+
+/************ Education ************/
+.h21 {
+	font-size: 45px;
+	font-weight: 700;
+  text-align: center;
+  color:  #20b68e;
+  padding-bottom: 20px;
+}
+.timeline-with-icons {
+  border-left: 1px solid hsl(0, 0%, 90%);
+  position: relative;
+  list-style: none;
+}
+
+.timeline-with-icons .timeline-item {
+  position: relative;
+}
+
+.timeline-with-icons .timeline-item:after {
+  position: absolute;
+  display: block;
+  top: 0;
+}
+
+.timeline-with-icons .timeline-icon {
+  position: absolute;
+  left: -48px;
+  background-color:  transparent;
+   
+  border-radius: 50%;
+  height: 31px;
+  width: 31px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.timeline-icon img {
+  border-radius: 50%;
+  display: block;
+  object-fit: cover;
+}
+
+.padding{
+  padding-left:100px;
+}
+
+.img1{
+  height:500px;
+  width:500px;
+  padding-bottom:20px;
+  padding-left:20px;
+  animation: easeInOut 1.5s infinite ease-in-out;
+}
+@keyframes easeInOut {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
 /************ Footer Css ************/
 .footer {
   padding: 0 0 50px 0;
