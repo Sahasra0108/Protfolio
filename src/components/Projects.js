@@ -43,7 +43,7 @@ export const Projects = () => {
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn": ""}>
                 <h2>Projects</h2>
-                <p>Find out my projects. These will be inspire you...</p>
+                <p>Highlights from some of my projects.These will surely inspire you..</p>
                 
                 <Row>
                         {

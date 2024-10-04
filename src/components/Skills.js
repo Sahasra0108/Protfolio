@@ -37,7 +37,7 @@ export const Skills = () => {
           <div className="col-12">
             <div className="skill-bx wow zoomIn">
               <h2>Skills</h2>
-              <p>These are some of my skills on the technologies.</p>
+              <p>These are some of the languages and technologies I have used in my projects</p>
               <div className="d-flex flex-wrap justify-content-center">
                 {techStack.map((tech, index) => (
                   <div key={index} className="p-3 rounded-3 m-2 d-flex flex-column align-items-center transition-transform hover-scale">
