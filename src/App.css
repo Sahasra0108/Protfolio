@@ -502,6 +502,89 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   object-fit: cover;  
 }
 
+/************ Hackathons Css ************/
+.hackathons {
+  padding: 80px 0;
+  position: relative;
+  background-color: black;
+   
+  
+}
+
+.cardpadding{
+ padding-left:100px;
+ padding-top: 40px;
+}
+
+.hackathons h2 {
+	font-size: 45px;
+	font-weight: 700;
+  text-align: center;
+  color:  #20b68e;
+}
+
+.card {
+  width: "20rem";
+  height: "23rem";
+  border: 2px solid #28a745;  
+  outline: 3px solid #20b68e;
+  border-radius: 10px;
+  transition: all 0.3s ease-in-out;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(249, 246, 246, 0.922);
+}
+
+.card:hover {
+  box-shadow: 0 0 20px #28a745; /* Green glow on hover */
+}
+
+.card-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #ffffff;
+  text-align: center;
+}
+
+.card-text {
+  font-size: 1rem;
+  color:#ffffff;
+  text-align: center;
+}
+
+.card-body {
+  padding: 60px;
+  background-color: #000;
+}
+
+.card::before {
+  content: "";
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background: linear-gradient(45deg, rgba(255, 255, 255, 0.2), transparent);
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+
+.card:hover::before {
+  opacity: 1;
+  animation: shine 2s infinite;
+}
+
+@keyframes shine {
+  0% {
+    transform: rotate(45deg) translateX(-150%);
+  }
+  100% {
+    transform: rotate(45deg) translateX(150%);
+  }
+}
+
+
+
 /************ Contact Css ************/
 .contact {
   background: linear-gradient(90.21deg, #163853 -5.91%, #20b68e 111.58%);
