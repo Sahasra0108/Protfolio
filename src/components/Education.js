@@ -1,11 +1,18 @@
-import React from "react";
+import React,{ useEffect }  from "react";
 import { MDBContainer } from "mdb-react-ui-kit";
 import balika from "../assets/img/balika.jpeg";
 import uom from "../assets/img/uom.jpeg";
 import { Container, Row, Col } from "react-bootstrap";
 import education from "../assets/img/edu1.png";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 export const Education = () => {
+
+  useEffect(() => {
+    AOS.init({ duration: 500 });
+  }, []);
+
   return (
     <section className="" id="education">
     <Container>
@@ -18,7 +25,9 @@ export const Education = () => {
           <Col size={12} md={6}>
      <div className="padding">
       <MDBContainer className="py-5">
+      <div data-aos="fade-left">
         <ul className="timeline-with-icons">
+       
           <li className="timeline-item mb-5">
             <span className="timeline-icon">
               <img
@@ -62,6 +71,7 @@ export const Education = () => {
             <p className="text-muted">9 As</p>
           </li>
         </ul>
+        </div>
       </MDBContainer>
       </div>
     

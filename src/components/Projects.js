@@ -1,4 +1,5 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
+import React, { useEffect } from 'react';
 import { ProjectCard } from "./ProjectCard";
 import projImg1 from "../assets/img/project1.jpg";
 import projImg2 from "../assets/img/inventory.jpeg";
@@ -9,10 +10,15 @@ import { Card2 } from "./Card2";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 import Cards2 from "./Card2";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 export const Projects = () => {
 
-   
+  useEffect(() => {
+    AOS.init({ duration: 500 });
+  }, []);
+
 
   const projects = [
     {
@@ -46,6 +52,7 @@ export const Projects = () => {
                 <p>Highlights from some of my projects.These will surely inspire you..</p>
                 
                 <Row>
+                
                         {
                           projects.map((project, index) => {
                             return (
@@ -56,7 +63,9 @@ export const Projects = () => {
                             )
                           })
                         }
+                         
                       </Row>
+                
                 {/* <Card/> */}
                 {/* <Tab.Container id="projects-tabs" defaultActiveKey="first">
                   <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
