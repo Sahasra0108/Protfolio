@@ -15,10 +15,10 @@ export const About = () => {
             <div className="w-100 px-4">
               <div className="text-gray-500 sm-text-lg dark:text-gray-400">
                 <p className="mb-4 text-justify">
-                  Information and Communication Technology (ICT) is my great love, and I attend University of Moratuwa for my undergraduate degree. My objective is to keep up to date with technological developments and always to improve my knowledge and abilities. I like problems and am always willing to learn new skills and technology.
+                I am passionate about Information and Communication Technology (ICT) and currently pursuing my undergraduate degree in Information Technology at the University Of Moratuwa. My goal is to stay at the forefront of technological advancements and continuously enhance my skills in software development, web technologies, and problem-solving. I enjoy tackling challenges that push me to learn and grow, especially in dynamic, fast-evolving environments.
                 </p>
                 <p className="mb-4 text-justify">
-                  With a solid foundation in design and programming, I bring proven interpersonal and communication abilities. My ability to collaborate well with others helps me accomplish group goals. Maintaining current with new technology excites me especially, and I aggressively look for chances to broaden my knowledge in this exciting and always changing area.
+                With strong collaboration skills, I work effectively with teams to achieve shared goals. My interpersonal and communication abilities allow me to contribute meaningfully to group projects. Staying current with new technology excites me, and I continuously seek opportunities to expand my knowledge in this ever-changing field.
                 </p>
               </div>
               <div className="d-flex flex-column align-items-center justify-content-center">

@@ -78,9 +78,8 @@ export const Banner = () => {
                 </span>
               </h1>
               <p>
-              A Software Engineering undergraduate with computer science,
-              application development experience, and programming language
-              expertise is passionate about solving real-world problems.
+              Dedicated and enthusiastic IT undergraduate student passionate about technology
+              and problem-solving.
               Engaging in projects, internships, and extracurricular activities,
               hackathons, and university tech clubs.
             </p>
