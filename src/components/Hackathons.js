@@ -7,9 +7,12 @@ import coderush from "../assets/img/coderush.jpg";
 import duothan from "../assets/img/Duothan.jpg";
 import ieee from "../assets/img/ieee.png";
 import idealize from "../assets/img/idealize1.jpg";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 export const Hackathons = () => {
   return (
+    <div data-aos="fade-up" >
     <section className="hackathons" id="hackathons">
       <Container>
         <h2>Hackathons</h2>
@@ -85,5 +88,6 @@ export const Hackathons = () => {
         </div>
       </Container>
     </section>
+    </div>
   );
 };

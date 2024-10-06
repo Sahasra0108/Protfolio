@@ -4,9 +4,13 @@ import { ProjectCard } from "./ProjectCard";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
 import sachiniImg from "../assets/img/Sachini.jpg";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 export const About = () => {
+  
   return (
+    <div data-aos="fade-up">
     <section className="project" id="about">
       <Container>
         <Row className="align-items-center justify-content-center py-4" style={{ minHeight: '100vh' }}>
@@ -35,5 +39,7 @@ export const About = () => {
       </Container>
       <img className="background-image-right" src={colorSharp2} alt="background" />
     </section>
+    </div>
   );
+  
 };

@@ -41,6 +41,7 @@ export const Projects = () => {
   ];
 
   return (
+    <div data-aos="fade-up">
     <section className="project" id="projects">
       <Container>
         <Row>
@@ -108,6 +109,8 @@ export const Projects = () => {
         </Row>
       </Container>
       <img className="background-image-right" src={colorSharp2}></img>
+      
     </section>
+    </div>
   )
 }

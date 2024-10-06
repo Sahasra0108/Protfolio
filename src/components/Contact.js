@@ -13,6 +13,8 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
 import address from "../assets/img/icons8-map-marker-64.png";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 export const Contact = () => {
   const formInitialDetails = {
@@ -71,6 +73,7 @@ export const Contact = () => {
   };
 
   return (
+    <div data-aos="fade-up" >
     <section className="contact" id="connect">
       <Container>
         <Row className="align-items-center">
@@ -203,5 +206,6 @@ export const Contact = () => {
         </Row>
       </Container>
     </section>
+    </div>
   );
 };
