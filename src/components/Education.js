@@ -18,7 +18,7 @@ export const Education = () => {
       <Container>
         <Row className="align-items-center">
           <h2 className="h21">Education</h2>
-          <Col size={12} lg={6} md={6}>
+          <Col size={12} lg={6} md={6} sm={6}>
             <img src={education} className="img1" />
           </Col>
           <Col size={12} md={6}>

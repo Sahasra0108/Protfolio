@@ -18,7 +18,7 @@ export const Hackathons = () => {
         <h2>Hackathons</h2>
         <div className="cardpadding">
           <Row>
-            <Col size={4}>
+            <Col size={4} sm={4}>
               <Card style={{ width: "20rem", height: "23rem" }}>
                 <Card.Img variant="top" src={inspiher} style={{ width: "20rem", height: "15rem" }}/>
                 <Card.Body>
@@ -29,7 +29,7 @@ export const Hackathons = () => {
                 </Card.Body>
               </Card>
             </Col>
-            <Col size={4}>
+            <Col size={4} sm={4}>
               <Card style={{ width: "20rem", height: "23rem" }}>
                 <Card.Img variant="top" src={coderush} style={{ width: "20rem", height: "15rem" }} />
                 <Card.Body>
@@ -38,7 +38,7 @@ export const Hackathons = () => {
                 </Card.Body>
               </Card>
             </Col>
-            <Col size={4}>
+            <Col size={4} sm={4}>
               <Card style={{ width: "20rem", height: "23rem" }}>
                 <Card.Img variant="top" src={duothan} style={{ width: "20rem", height: "15rem" }}/>
                 <Card.Body>
@@ -51,7 +51,7 @@ export const Hackathons = () => {
         </div>
         <div className="cardpadding">
           <Row>
-            <Col size={4}>
+            <Col size={4} sm={4}>
               <Card style={{ width: "20rem", height: "23rem" }}>
                 <Card.Img variant="top" src={idealize} style={{ width: "20rem", height: "15rem" }}/>
                 <Card.Body>
@@ -61,7 +61,7 @@ export const Hackathons = () => {
               </Card>
             </Col>
 
-            <Col size={4}>
+            <Col size={4} sm={4}>
               <Card style={{ width: "20rem", height: "23rem" }}>
                 <Card.Img variant="top" src={hackmoral} style={{ width: "20rem", height: "15rem" }}/>
                 <Card.Body>
@@ -72,7 +72,7 @@ export const Hackathons = () => {
                 </Card.Body>
               </Card>
             </Col>
-            <Col size={4}>
+            <Col size={4} sm={4}>
               <Card style={{ width: "20rem", height: "23rem" }}>
                 <Card.Img variant="top" src={ieee} style={{ width: "20rem", height: "15rem" }}/>
                 <Card.Body>

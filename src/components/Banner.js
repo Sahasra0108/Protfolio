@@ -86,35 +86,16 @@ export const Banner = () => {
             </div>
           )}
         </TrackVisibility>
-
+         
         <spline-viewer
           url="https://prod.spline.design/7PjOJltVOdFGXqmn/scene.splinecode"
           style={{ paddingLeft: "50px" }}
         ></spline-viewer>
+         
       </Container>
-      <style jsx>{`
-        @media (max-width: 1200px) {
-          div[spline-viewer] {
-            height: 400px;
-          }
-        }
-        @media (max-width: 768px) {
-          div[spline-viewer] {
-            height: 300px;
-          }
-        }
-        @media (max-width: 576px) {
-          div[spline-viewer] {
-            height: 250px;
-          }
-        }
-      `}</style>
+       
     </section>
   );
 };
 
-const splineViewerStyles = {
-  width: "100%",
-  height: "500px", // default height for large screens
-  marginTop: "20px",
-};
+ 
