@@ -21,7 +21,7 @@ export const Education = () => {
           <Col size={12} lg={6} md={6} sm={6}>
             <img src={education} className="img1" />
           </Col>
-          <Col size={12} md={6}>
+          <Col size={12} lg={6} md={12} sm={12}>
             <div className="padding">
               <MDBContainer className="py-5">
                 <div data-aos="fade-left">

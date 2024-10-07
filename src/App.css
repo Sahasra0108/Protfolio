@@ -27,6 +27,12 @@ html {
   scroll-padding-top: 75px;
 }
 
+@media (max-width: 768px) {
+  .padding {
+    padding: 0 !important;
+  }
+}
+
 body {
   font-weight: 400;
   overflow-x: hidden;
@@ -601,7 +607,22 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   }
 }
 
+@media (max-width: 768px) {
+  .hackathons {
+    padding: 0 !important;  
+  }
 
+   
+  .cardpadding{
+    padding-left: 40px !important;  
+    padding-top: 50px !important;  
+    
+  }
+  
+
+  
+   
+}
 
 /************ Contact Css ************/
 .contact {
@@ -771,6 +792,13 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   }
   100% {
     transform: scale(1);
+  }
+}
+
+@media (max-width: 768px){
+  .img1 {
+    width: 100%; /* Ensure the main education image is responsive */
+    height: auto; /* Maintain aspect ratio */
   }
 }
 /************ Footer Css ************/

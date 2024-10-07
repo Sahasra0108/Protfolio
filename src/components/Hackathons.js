@@ -60,7 +60,7 @@ export const Hackathons = () => {
                 </Card.Body>
               </Card>
             </Col>
-
+            
             <Col size={4} sm={4}>
               <Card style={{ width: "20rem", height: "23rem" }}>
                 <Card.Img variant="top" src={hackmoral} style={{ width: "20rem", height: "15rem" }}/>

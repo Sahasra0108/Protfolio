@@ -77,7 +77,7 @@ export const Contact = () => {
     <section className="contact" id="connect">
       <Container>
         <Row className="align-items-center">
-          <Col size={12} md={6}>
+          <Col size={12} md={6} sm={6}>
             <TrackVisibility>
               {({ isVisible }) => (
                 <div
@@ -123,7 +123,7 @@ export const Contact = () => {
             </TrackVisibility>
           </Col>
 
-          <Col size={12} md={6}>
+          <Col size={12} md={6} sm={6}>
             <TrackVisibility>
               {({ isVisible }) => (
                 <div
