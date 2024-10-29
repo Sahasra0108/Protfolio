@@ -57,7 +57,7 @@ export const NavBar = () => {
               <HashLink to='#connect'>
                 <button className="vvd"><span>Hire Me</span></button>
               </HashLink>
-              <a href="/Sachini_Perera_CV.pdf" target="_blank" rel="noopener noreferrer">
+              <a href="/Sachini_Sahasra_SE_Intern.pdf" target="_blank" rel="noopener noreferrer">
                 <button className="vvd"><span>Get CV</span></button>
               </a>
             </span>
